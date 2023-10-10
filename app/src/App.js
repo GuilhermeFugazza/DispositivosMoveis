@@ -1,16 +1,17 @@
 import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
-
+import { SafeAreaView, StyleSheet, View } from 'react-native';
 import Primeiro from './components/Primeiro';
-import { Comp, Comp2, Comp3 } from './components/Multiplos';
+import Comp, { Comp2, Comp3 } from './components/Multiplos';
+import MinMax from "./components/MinMax"
+import Style from "./Style.js";
+
+import Contador from "./components/Contador.js"
 
 export default function App() {
-    return(
-        <SafeAreaView>
-            <Primeiro />
-            <Comp />
-            <Comp2 />
-            <Comp3 />
+    return (
+        <SafeAreaView  style={Style.container}>
+            <Contador inicial={62} passo={1}/>
         </SafeAreaView>
-    ) 
+    )
 }
+

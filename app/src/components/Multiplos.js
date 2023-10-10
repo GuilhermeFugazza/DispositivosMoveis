@@ -1,17 +1,18 @@
 import React from "react";
 import { Text } from "react-native";
-import App from "../App";
+import Style from "../Style";
 
 function Comp() {
-    return <Text>Primeiro Componente</Text>
+    return <Text Style={Style.fontG}>Primeiro Componente</Text>
 }
 
 function Comp2() {
-    return <Text>Segundo Componente</Text>
+    return <Text Style={Style.fontG}>Segundo Componente</Text>
 }
 
 function Comp3() {
-    return <Text>Terceiro Componente</Text>
+    return <Text Style={Style.fontG}>Terceiro Componente</Text>
 }
 
-export { Comp, Comp2, Comp3 }
+export { Comp2, Comp3 }
+export default Comp
