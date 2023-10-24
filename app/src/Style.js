@@ -12,7 +12,7 @@ export default StyleSheet.create({
         alignItems: 'center',
     },
 
-    Button: {
+    btnCont: {
        // width: 300,
        color: 'red',
     }

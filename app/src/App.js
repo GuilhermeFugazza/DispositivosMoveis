@@ -10,7 +10,7 @@ import Contador from "./components/Contador.js"
 export default function App() {
     return (
         <SafeAreaView  style={Style.container}>
-            <Contador inicial={62} passo={1}/>
+            <Contador inicial={100} passo={1}/>
         </SafeAreaView>
     )
 }
