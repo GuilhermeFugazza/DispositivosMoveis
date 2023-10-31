@@ -15,5 +15,9 @@ export default StyleSheet.create({
     btnCont: {
        // width: 300,
        color: 'red',
+    },
+
+    btnTeste:{
+        backgroundColor: 'black',
     }
 })

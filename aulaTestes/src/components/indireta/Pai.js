@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Filho from './Filho'
 import {Text} from 'react-native'
-import estilo from '../../estilo'
+import Style from '../../Style'
 
 export default props =>{
     const [texto, setTexto] = useState("")
@@ -14,7 +14,7 @@ export default props =>{
 
     return(
         <>
-            <Text style={estilo.fontG}>
+            <Text style={Style.fontG}>
                 {texto} {num}
             </Text>
             <Filho
@@ -25,7 +25,4 @@ export default props =>{
         
         </>
     )
-
-
-
 }
