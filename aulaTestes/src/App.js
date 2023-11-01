@@ -10,12 +10,15 @@ import ContadorV2 from "./contador/ContadorV2"
 import ParImpar from './components/ParImpar';
 import UserLogado from './components/UserLogado';
 import ListaProdutos from './Produtos/ListaProdutos';
+import DigiteSeuNome from './components/DigiteSeuNome';
+import FlexboxV1 from './components/Layout/FlexboxV1';
 
 export default function App() {
     return (
         <SafeAreaView  style={Style.container}>
-            <ListaProdutos />
+            <FlexboxV1 />
         </SafeAreaView>
     )
 }
 
+''
