@@ -3,13 +3,15 @@ import { Text, StyleSheet, View } from 'react-native'
 
 
 export default props => {
+    const alt = props.alt
+    const larg = props.larg
+
     return (
         <Text style={{
-            height: 100,
-            width: 100,
-            borderRadius:50,
+            height: alt,
+            width: larg,
             textAlign: 'center',
-            backgroundColor: props.cor || "#fff"
+            backgroundColor: props.cor
         }}></Text>
     )
 }

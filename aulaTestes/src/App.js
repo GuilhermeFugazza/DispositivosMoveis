@@ -11,12 +11,12 @@ import ParImpar from './components/ParImpar';
 import UserLogado from './components/UserLogado';
 import ListaProdutos from './Produtos/ListaProdutos';
 import DigiteSeuNome from './components/DigiteSeuNome';
-import FlexboxV1 from './components/Layout/FlexboxV1';
+import Paisagem from './components/Layout/Paisagem.js';
 
 export default function App() {
     return (
         <SafeAreaView  style={Style.container}>
-            <FlexboxV1 />
+            <Paisagem />
         </SafeAreaView>
     )
 }
