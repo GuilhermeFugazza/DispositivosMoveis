@@ -4,7 +4,7 @@ import Bolas from '../Bolas'
 
 export default props => {
     return (
-            <View style={Style.tree}>
+            <View style={Style.tree}>             
                 <Bolas alt='2.5%' larg='5%' cor="#60F956" />
                 <Bolas alt='2.5%' larg='7.5%' cor="#60F956" />
                 <Bolas alt='2.5%' larg='10%' cor="#60F956" />
@@ -64,5 +64,8 @@ const Style = StyleSheet.create({
         height: '20%',
         justifyContent: 'flex-end',
         backgroundColor: '#00bfff'
+    },
+    sol: {
+        paddingBottom: "60%"
     }
 })

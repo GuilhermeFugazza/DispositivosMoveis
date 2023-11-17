@@ -11,7 +11,8 @@ export default props => {
             height: alt,
             width: larg,
             textAlign: 'center',
-            backgroundColor: props.cor
+            backgroundColor: props.cor,
+            borderRadius: props.bord,
         }}></Text>
     )
 }
