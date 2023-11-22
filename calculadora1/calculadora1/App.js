@@ -67,7 +67,7 @@ export default function App() {
       </View>
       <View style={styles.buttons}>
         {buttons.map((button) =>
-          <TouchableOpacity key={button} style={styles.button}>
+          <TouchableOpacity key={button} style={styles.button} onPress={() => handleInput(button)}>
             <Text style={styles.textButton}>
               {button}
             </Text>
